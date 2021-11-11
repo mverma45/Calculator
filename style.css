@@ -60,3 +60,8 @@ body {
   color: rgba(255, 255, 255, 1);
   font-size: 2.5rem;
 }
+
+.version {
+  /* top | right | bottom | left */
+  margin: 0 0 5px 10px;
+}
