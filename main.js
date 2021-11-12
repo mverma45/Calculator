@@ -55,9 +55,6 @@ class Calculator {
             case '*':
                 computation = prev * current
                 break
-            case '+':
-                computation = prev + current
-                break
             case '÷':
                 computation = prev / current
                 break
@@ -75,7 +72,7 @@ class Calculator {
         const decimalDigits = stringNumber.split('.')[1]
         let integerDisplay
         if (isNaN(integerDigits)) {
-            integerDigits = ''
+            integerDisplay = ''
         } else {
             integerDisplay = integerDigits.toLocaleString('en', {maximumFractionDigits: 0})
         }
