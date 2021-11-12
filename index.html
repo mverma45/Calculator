@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
   </head>
   <body>
     <h1>Calculator</h1>
     <div class="calculator-grid">
       <div class="output">
         <div data-previous-operand class="previous-operand"></div>
-        <div data-current-operatnd class="current-operand"></div>
+        <div data-current-operand class="current-operand"></div>
       </div>
 
       <!-- so we don't mix style and classes we can use data attributes
@@ -37,6 +38,7 @@
       <button data-number>0</button>
       <button data-equals class="span-two">=</button>
     </div>
-    <script src="main.js"></script>
+
+    <p class="version">Version 1.0.0</p>
   </body>
 </html>

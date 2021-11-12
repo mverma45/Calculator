@@ -18,7 +18,7 @@ body {
   align-content: center;
   min-height: 100vh;
   grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 50px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
   /* this says have the display screen at 120px but also make it as large as it needs to fit the number */
 }
 
@@ -59,4 +59,9 @@ body {
 .output .current-operand {
   color: rgba(255, 255, 255, 1);
   font-size: 2.5rem;
+}
+
+.version {
+  /* top | right | bottom | left */
+  margin: 0 0 5px 10px;
 }
